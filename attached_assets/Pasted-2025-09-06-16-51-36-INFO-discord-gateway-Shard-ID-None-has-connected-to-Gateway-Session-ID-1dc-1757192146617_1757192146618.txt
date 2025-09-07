@@ -1,0 +1,79 @@
+2025-09-06 16:51:36 INFO     discord.gateway Shard ID None has connected to Gateway (Session ID: 1dcba9c40dda3a25fb7de677d5d97234).
+✅ Eingeloggt als Haze Visuals#1540
+📊 Bot ist in 2 Server(n)
+   📋 Server: HV |Haze Visuals☆ (ID: 1390150369132155035) - 56 Mitglieder
+      🔑 Berechtigungen: use_application_commands=True, send_messages=True
+      ✅ 0 Commands für Server HV |Haze Visuals☆ synchronisiert
+   📋 Server: CV | Cracky Visuals☆ (ID: 1413732158626992158) - 11 Mitglieder
+      🔑 Berechtigungen: use_application_commands=True, send_messages=True
+      ✅ 0 Commands für Server CV | Cracky Visuals☆ synchronisiert
+✅ 12 Globale Slash Commands synchronisiert
+   - /edit_preise: Bearbeite die Preisliste (nur für autorisierte Benutzer)
+   - /clear: Lösche eine bestimmte Anzahl von Nachrichten (nur für Administratoren)
+   - /adddiscount: Füge einen neuen Discount Code hinzu (nur für Administratoren)
+   - /discountremove: Entferne einen Discount Code (nur für Administratoren)
+   - /discountlist: Zeige alle verfügbaren Discount Codes (nur für Administratoren)
+   - /ticket_panel: Erstelle das Ticket-Panel (nur für Administratoren)
+   - /terminerefresh: Lösche alle gebuchten Termine (nur für HV | Team)
+   - /setup: Bot Setup für neue Server (nur für Administratoren)
+   - /preise: Zeigt die Preisliste an
+   - /admin: Umfassendes Admin-Konfigurationspanel für Server-Anpassungen
+   - /force_update: Erzwinge Bot-Update (nur für Administratoren)
+   - /giveaway: Erstelle ein Giveaway mit automatischem Countdown und Gewinner-Auswahl
+🔄 Ticket-Überwachung gestartet
+📅 Kalender-System gestartet
+✅ Ticket counter voice channel created: 📊 Offene Tickets: 0
+✅ Member counter voice channel created: 👥 Mitglieder: 3
+❌ Ticket counter category not found
+📅 Kalender erfolgreich aktualisiert
+✅ Discount codes migrated to new format
+🎫 Single-Use Discount Code erstellt: 8379128165 (5.0€) von haze219
+🗑️ /clear command verwendet von haze219 für 1 Nachrichten
+✅ 1 Nachrichten gelöscht von haze219
+🎫 /ticket_panel command verwendet von haze219
+✅ Ticket-Panel erfolgreich erstellt
+2025-09-06 16:54:09 ERROR    discord.ui.view Ignoring exception in view <View timeout=300 children=6> for item <Button style=<ButtonStyle.secondary: 2> url=None disabled=False label='⬅️ Zurück' emoji=None row=None sku_id=None id=None>
+Traceback (most recent call last):
+  File "/root/discord/bot-env/lib/python3.11/site-packages/discord/ui/view.py", line 552, in _scheduled_task
+    await item.callback(interaction)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/discord/main.py", line 4112, in <lambda>
+    back_button.callback = lambda i: show_admin_config(i)
+                                     ^^^^^^^^^^^^^^^^^
+NameError: name 'show_admin_config' is not defined
+✅ Optimized clothing selection started for ticket: clothing-kleeeeblatt
+🎫 Neues Ticket erstellt: clothing-kleeeeblatt von kleeeeblatt (Typ: Bestellung)
+🔄 Bot bereit - Interaktionen wurden aktualisiert
+🚀 Auto-Update System gestartet (Version 2.5.0)
+2025-09-06 16:55:02 ERROR    discord.ui.view Ignoring exception in view <View timeout=None children=2> for item <Button style=<ButtonStyle.primary: 1> url=None disabled=False label='🎟️ Discount Code verwenden' emoji=None row=None sku_id=None id=None>
+Traceback (most recent call last):
+  File "/root/discord/bot-env/lib/python3.11/site-packages/discord/ui/view.py", line 552, in _scheduled_task
+    await item.callback(interaction)
+  File "/root/discord/main.py", line 930, in use_code_callback
+    modal = DiscountCodeModal(ticket_channel, user, order_data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscountCodeModal.__init__() missing 2 required positional arguments: 'ticket_channel' and 'user'
+2025-09-06 16:55:07 ERROR    discord.ui.view Ignoring exception in view <View timeout=None children=2> for item <Button style=<ButtonStyle.primary: 1> url=None disabled=False label='🎟️ Discount Code verwenden' emoji=None row=None sku_id=None id=None>
+Traceback (most recent call last):
+  File "/root/discord/bot-env/lib/python3.11/site-packages/discord/ui/view.py", line 552, in _scheduled_task
+    await item.callback(interaction)
+  File "/root/discord/main.py", line 930, in use_code_callback
+    modal = DiscountCodeModal(ticket_channel, user, order_data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscountCodeModal.__init__() missing 2 required positional arguments: 'ticket_channel' and 'user'
+2025-09-06 16:55:14 ERROR    discord.ui.view Ignoring exception in view <View timeout=None children=2> for item <Button style=<ButtonStyle.primary: 1> url=None disabled=False label='🎟️ Discount Code verwenden' emoji=None row=None sku_id=None id=None>
+Traceback (most recent call last):
+  File "/root/discord/bot-env/lib/python3.11/site-packages/discord/ui/view.py", line 552, in _scheduled_task
+    await item.callback(interaction)
+  File "/root/discord/main.py", line 930, in use_code_callback
+    modal = DiscountCodeModal(ticket_channel, user, order_data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscountCodeModal.__init__() missing 2 required positional arguments: 'ticket_channel' and 'user'
+2025-09-06 16:55:20 ERROR    discord.ui.view Ignoring exception in view <View timeout=None children=2> for item <Button style=<ButtonStyle.primary: 1> url=None disabled=False label='🎟️ Discount Code verwenden' emoji=None row=None sku_id=None id=None>
+Traceback (most recent call last):
+  File "/root/discord/bot-env/lib/python3.11/site-packages/discord/ui/view.py", line 552, in _scheduled_task
+    await item.callback(interaction)
+  File "/root/discord/main.py", line 930, in use_code_callback
+    modal = DiscountCodeModal(ticket_channel, user, order_data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscountCodeModal.__init__() missing 2 required positional arguments: 'ticket_channel' and 'user'

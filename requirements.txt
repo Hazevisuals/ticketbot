@@ -1,0 +1,7 @@
+discord.py
+pynacl
+pytz
+youtube-dl
+flask
+aiohttp
+requests

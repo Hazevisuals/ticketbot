@@ -1,0 +1,122 @@
+{
+  "1413933315051884614": {
+    "branding": {
+      "bot_name": "test Business Bot",
+      "primary_color": "#0066cc",
+      "footer_text": "test • Professional Business Services"
+    },
+    "roles": {
+      "admin_role": "🏢 Business Admin",
+      "staff_role": "👔 Manager",
+      "support_role": "🎧 Support Team",
+      "customer_role": "💼 Business Client"
+    },
+    "categories": {
+      "open": 1413953301745242212,
+      "claimed": 1413953302105690215,
+      "paid": 1413953303716560936,
+      "finished": 1413953305075384320
+    },
+    "channels": {
+      "welcome": 1413953312381862060,
+      "pricing": 1413953313086505161,
+      "tickets": 1413953314390802512,
+      "calendar": 1413953317067030588,
+      "testimonials": 1413953313795342436
+    },
+    "payment": {
+      "paypal_email": "business@yourcompany.com",
+      "crypto_enabled": true,
+      "paysafecard_enabled": true,
+      "cash_enabled": true,
+      "bank_name": "Revolut",
+      "account_holder": "André Kaiser",
+      "iban": "DE312313",
+      "bic": "hasdjjnasda"
+    },
+    "pricing": {
+      "Basic Consulting": 150.0,
+      "Business Package": 350.0,
+      "Premium Enterprise": 750.0,
+      "Custom Solution": 1200.0
+    },
+    "setup_type": "business",
+    "setup_completed": true,
+    "setup_date": "2025-09-06T18:25:41.188802"
+  },
+  "1390150369132155035": {
+    "categories": {
+      "open": 1413669641062055976,
+      "claimed": 1413669733957636156,
+      "paid": 1413892803162800178,
+      "finished": 1413893025620299837
+    },
+    "ticket_types": [
+      "Bestellung",
+      "Support",
+      "Bug Report",
+      "Vorschlag",
+      "Bewerbung"
+    ],
+    "custom_categories": {},
+    "ticket_customization": {
+      "panel_title": "🎫 TICKET SYSTEM",
+      "panel_description": "╔═══════════════════════════════════════╗\n║              🌪️ HAZE VISUALS 🌪️              ║\n║            ✨ Support Center ✨            ║\n╚═══════════════════════════════════════╝\n\n📞 **Brauchst du Hilfe?**\nKlicke auf einen der Buttons unten, um ein Ticket zu erstellen:\n\n🛒 **Bestellung** - Für Aufträge und Kaufanfragen\n🛠️ **Support** - Allgemeine Hilfe und Fragen  \n🐛 **Bug Report** - Probleme melden\n💡 **Vorschlag** - Ideen und Feedback\n📋 **Bewerbung** - Team-Bewerbungen\n\n⚡ **Hinweise:**\n• Ein Ticket pro Person zur gleichen Zeit\n• Unser Team antwortet so schnell wie möglich\n• Verwende die richtige Kategorie für dein Anliegen",
+      "banner_url": "attached_assets/bannergif-ezgif.com-video-to-gif-converter_1757177441437.gif",
+      "footer_text": "Haze Visuals • Ticket System"
+    },
+    "commands_enabled": {
+      "preise": true,
+      "edit_preise": true,
+      "adddiscount": true,
+      "discountremove": true,
+      "discountlist": true,
+      "clear": true,
+      "terminerefresh": true,
+      "ticket_panel": true,
+      "setup": true
+    },
+    "features": {
+      "payment_system": true,
+      "calendar_system": true,
+      "review_system": true,
+      "discount_codes": true,
+      "welcome_messages": true,
+      "leave_messages": true,
+      "music_bot": false
+    },
+    "ticket_names": {
+      "Bestellung": "clothing-{username}",
+      "Support": "support-{username}",
+      "Bug Report": "bug-{username}",
+      "Vorschlag": "vorschlag-{username}",
+      "Bewerbung": "ticket-{username}"
+    },
+    "channels": {
+      "welcome_channel": 1413665493545390090,
+      "leave_channel": 1413665534930587650,
+      "calendar_channel": 1413668409853345792,
+      "review_channel": 1413668548399726602,
+      "music_channel": null
+    },
+    "roles": {
+      "staff_role": "HV | Team",
+      "admin_role": "HV | Leitung",
+      "customer_role": "Customer"
+    },
+    "messages": {
+      "welcome_message": "Willkommen {mention} auf {server}. Viel Spaß !",
+      "leave_message": "{username} hat uns verlassen"
+    },
+    "music_bot": {
+      "enabled": false,
+      "channel_id": null,
+      "playlist_url": "",
+      "volume": 50,
+      "auto_play": true
+    },
+    "payment": {
+      "bank_enabled": false
+    }
+  }
+}
